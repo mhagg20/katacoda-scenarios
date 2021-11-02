@@ -1,6 +1,6 @@
 {
-  "title": "New Scenario Template",
-  "description": "A simple scenario example.",
+  "title": "A Scenario with InfluxDB",
+  "description": "A program draft in the context of the lecture Data Warehouse to the InfluxDB.",
   "difficulty": "Beginner",
   "time": "3 minutes",
   "details": {
