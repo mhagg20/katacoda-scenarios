@@ -5,11 +5,7 @@ This is some text.
 Here's a single line of runnable code:
 
 ```
-docker pull 
-influxdb
-```{{execute}}
-
-`cat "<<EOF >>" docker-compose.yml
+cat "<<EOF >>" docker-compose.yml
     version: '3'
     services:
     influxdb:
@@ -34,7 +30,11 @@ influxdb
         - "8888:8888"
         depends_on:
         - influxdb
-EOF`{{execute}}
+EOF
+```{{execute}}
 
-`docker pull influxdb`{{execute}}
+`docker-compose up -d`{{execute}}
 
+`docker ps`{{execute}}
+
+`apt install influxdb-client`{{execute}}
