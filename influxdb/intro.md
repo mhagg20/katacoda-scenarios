@@ -1,12 +1,10 @@
-# New Scenario Template (Your Title Here)
+# Szenario: InfluxDB
 
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+Test wo steht das?
 
 ## Description
 
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
-
-Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
+Dieses Szenario beschäftigt sich mit der InfluxDB. Dabei werden die ersten Schritte im Umgang mit der InfluxDB beschrieben. Der Fokus liegt dabei auf den Themen Modellierung, Speicherung und Abfrage von Zeitreihen.
 
 ## Learning Objective
 
