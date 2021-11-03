@@ -1,6 +1,5 @@
 # Szenario: InfluxDB
 
-Test wo steht das?
 
 ## Description
 
