@@ -7,6 +7,7 @@ In diesem Szenario wird ein bereits existierendes Docker Image von Docker Hub ge
 `docker pull influxdb`{{execute}}
 
 Nachdem das Image herutergeladen wurdelässt sich dieses und alle weitern Images auflisten:
+
 `docker image ls`{{execute}}
 
 Nun muss die InfluxDB / das Image gestartet werden. Hierbei werden zusätzliche Parameter benötigt.
@@ -30,7 +31,9 @@ docker run -p 8086:8086 \
 ```{{execute}}
 
 Nachdem die InfluxDB gestartet wurde, wird der Docker Container unter folgendem Befehl gelistet:
+
 `docker ps`{{execute}}
 
 Zur Nutzung der InfluxDB muss zusätzlich der InfluxDB-Client installiert werden.
+
 `apt install influxdb-client`{{execute}}
