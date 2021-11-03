@@ -1,8 +1,5 @@
-# Heading for Step 3
+# InfluxDB-Client installieren
 
-This is some text.
+Im dritten Schritt wird der benötigte InfluxDB-Client installiert.
 
-Here's a single line of runnable code:
-
-`printf 'Cello, world!\n\n'`{{execute}}
-
+`apt install influxdb-client`{{execute}}
