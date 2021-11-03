@@ -4,6 +4,11 @@ This is some text.
 
 Here's a single line of runnable code:
 
+```
+docker pull 
+influxdb
+```{{execute}}
+
 `cat "<<EOF >>" docker-compose.yml
     version: '3'
     services:
