@@ -35,6 +35,8 @@ EOF
 
 `docker-compose up -d`{{execute}}
 
+`docker pull influxdb`{{execute}}
+
 `docker ps`{{execute}}
 
 `apt install influxdb-client`{{execute}}
