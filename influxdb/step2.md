@@ -19,11 +19,3 @@ docker run -p 8086:8086 \
       -e DOCKER_INFLUXDB_INIT_BUCKET=pro_bu \
       influxdb:1.0
 ```{{execute}}
-
-Nachdem die InfluxDB gestartet wurde, wird der Docker Container unter folgendem Befehl gelistet:
-`docker ps`{{execute}}
-
-
-Zur Nutzung der InfluxDB muss zusätzlich der InfluxDB-Client installiert werden.
-
-`apt install influxdb-client`{{execute}}
