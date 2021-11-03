@@ -15,6 +15,7 @@ Folgende Parameter müssen dabei zwingend gesetzt werden:
  - DOCKER_INFLUXDB_INIT_PASSWORD=PASSWORT
  - DOCKER_INFLUXDB_INIT_ORG=pro_org
  - DOCKER_INFLUXDB_INIT_BUCKET
+
 Diese Daten werden zum Login in die Datenbank und zur Auswahl des richtigen Projektes benötigt.
 ```
 docker run -p 8086:8086 \
