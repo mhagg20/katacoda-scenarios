@@ -4,39 +4,20 @@ This is some text.
 
 Here's a single line of runnable code:
 
-```
-cat "<<EOF >>" docker-compose.yml
-version: '3'
-services:
-  influxdb:
-    image: influxdb:latest
-    volumes:
-      # Mount for influxdb data directory
-      - ./influxdb/data:/var/lib/influxdb
-      # Mount for influxdb configuration
-      - ./influxdb/config/:/etc/influxdb/
-    ports:
-      # The API for InfluxDB is served on port 8086
-      - "8086:8086"
-      - "8082:8082"
-
-  chronograf:
-    image: chronograf:latest
-    volumes:
-      # Mount for chronograf database
-      - ./chronograf/data/:/var/lib/chronograf/
-    ports:
-      # The WebUI for Chronograf is served on port 8888
-      - "8888:8888"
-    depends_on:
-      - influxdb
-EOF
-```{{execute}}
-
-`docker-compose up -d`{{execute}}
-
 `docker pull influxdb`{{execute}}
 
 `docker ps`{{execute}}
 
 `apt install influxdb-client`{{execute}}
+
+```
+docker run -p 8086:8086 \
+      -v influxdb:/var/lib/influxdb \
+      -v influxdb2:/var/lib/influxdb2 \
+      -e DOCKER_INFLUXDB_INIT_MODE=upgrade \
+      -e DOCKER_INFLUXDB_INIT_USERNAME=mhagg \
+      -e DOCKER_INFLUXDB_INIT_PASSWORD=PASSWORT \
+      -e DOCKER_INFLUXDB_INIT_ORG=pro_org \
+      -e DOCKER_INFLUXDB_INIT_BUCKET=pro_bu \
+      influxdb:1.0
+```{{execute}}
