@@ -17,7 +17,7 @@ docker run -p 8086:8086 \
       -e DOCKER_INFLUXDB_INIT_PASSWORD=PASSWORT \
       -e DOCKER_INFLUXDB_INIT_ORG=pro_org \
       -e DOCKER_INFLUXDB_INIT_BUCKET=pro_bu \
-      influxdb:1.0
+      influxdb:latest
 ```{{execute}}
 
 Nachdem die InfluxDB gestartet wurde, wird der Docker Container unter folgendem Befehl gelistet:
