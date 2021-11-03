@@ -4,31 +4,32 @@ This is some text.
 
 Here's a single line of runnable code:
 
-"docker pull influxdb"{{execute}}
+`cat "<<EOF >>" docker-compose.yml
+    version: '3'
+    services:
+    influxdb:
+        image: influxdb:latest
+        volumes:
+        # Mount for influxdb data directory
+        - ./influxdb/data:/var/lib/influxdb
+        # Mount for influxdb configuration
+        - ./influxdb/config/:/etc/influxdb/
+        ports:
+        # The API for InfluxDB is served on port 8086
+        - "8086:8086"
+        - "8082:8082"
 
-"cat <<EOF >> docker-compose.yml
-version: '3'
-services:
-  influxdb:
-    image: influxdb:latest
-    volumes:
-      # Mount for influxdb data directory
-      - ./influxdb/data:/var/lib/influxdb
-      # Mount for influxdb configuration
-      - ./influxdb/config/:/etc/influxdb/
-    ports:
-      # The API for InfluxDB is served on port 8086
-      - "8086:8086"
-      - "8082:8082"
+    chronograf:
+        image: chronograf:latest
+        volumes:
+        # Mount for chronograf database
+        - ./chronograf/data/:/var/lib/chronograf/
+        ports:
+        # The WebUI for Chronograf is served on port 8888
+        - "8888:8888"
+        depends_on:
+        - influxdb
+EOF`{{execute}}
 
-  chronograf:
-    image: chronograf:latest
-    volumes:
-      # Mount for chronograf database
-      - ./chronograf/data/:/var/lib/chronograf/
-    ports:
-      # The WebUI for Chronograf is served on port 8888
-      - "8888:8888"
-    depends_on:
-      - influxdb
-EOF"{{execute}}
+`docker pull influxdb`{{execute}}
+
