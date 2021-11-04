@@ -8,6 +8,13 @@ Beim Starten werden folgende Parameter zum Login in die Datenbank und zur Auswah
  - DOCKER_INFLUXDB_INIT_ORG=pro_org
  - DOCKER_INFLUXDB_INIT_BUCKET
 
+
+```
+docker run -p 8086:8086 \
+      -v influxdb:/var/lib/influxdb \
+      influxdb:1.8
+```{{execute}}
+
 ```
 docker run -p 8086:8086 \
       -v influxdb:/var/lib/influxdb \
@@ -16,5 +23,6 @@ docker run -p 8086:8086 \
       -e DOCKER_INFLUXDB_INIT_USERNAME=mhagg \
       -e DOCKER_INFLUXDB_INIT_PASSWORD=PASSWORT \
       -e DOCKER_INFLUXDB_INIT_ORG=pro_org \
-      -e DOCKER_INFLUXDB_INIT_BUCKET=pro_bu
+      -e DOCKER_INFLUXDB_INIT_BUCKET=pro_bu \
+      influxdb:2.0
 ```{{execute}}
