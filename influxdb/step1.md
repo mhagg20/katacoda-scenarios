@@ -7,3 +7,7 @@ Das Docker Image wird von Docker Hub heruntergeladen:
 
 Nachdem das Image herutergeladen wurdelässt sich dieses und alle weitern Images auflisten:
 `docker image ls`{{execute}}
+
+`apt install influxdb-client`{{execute}}
+
+https://2886795272-8086-ollie02.environments.katacoda.com/
