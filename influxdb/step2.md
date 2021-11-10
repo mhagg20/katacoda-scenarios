@@ -12,7 +12,7 @@ Beim Starten werden folgende Parameter zum Login in die Datenbank und zur Auswah
 ```
 docker run -p 8086:8086 \
       -v influxdb:/var/lib/influxdb \
-      influxdb:2.0
+      influxdb:1.0
 ```{{execute}}
 
 ```
