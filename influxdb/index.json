@@ -6,10 +6,6 @@
   "details": {
     "steps": [
       {
-        "title": "Abstract",
-        "text": "stepAbstract.md"
-      },
-      {
         "title": "Einführung",
         "text": "stepEinfuehrung.md"
       },
@@ -26,10 +22,16 @@
         "text": "stepQuellen.md"
       }
     ],
-    "intro": {
-      "text": "intro.md",
-      "code": "foreground.sh"
-    },
+    "intro": [
+      {
+        "text": "intro.md",
+        "code": "foreground.sh"
+      },
+      {
+        "title": "Abstract",
+        "text": "stepAbstract.md"
+      }
+    ],
     "finish": {
       "text": "finish.md"
     }
