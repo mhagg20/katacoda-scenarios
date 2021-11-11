@@ -1,1 +1,1 @@
-![Katacoda Logo](./assets/4.png)
+![Katacoda Logo](katacoda-scenarios/assets/4.png)
