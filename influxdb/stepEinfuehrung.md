@@ -1,1 +1,1 @@
-![Katacoda Logo](katacoda-scenarios/assets/4.png)
+![Bild](influxdb/assets/4.png)
