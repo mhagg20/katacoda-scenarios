@@ -9,11 +9,11 @@ Für die Konfiguration und Nutzung der InfluxDB wird der InfluxDB-Client benöti
 
 `apt install influxdb-client`{{execute T2}}
 
-`influx setup -b bucket -o org -u user -p passwort`{{execute T3}}
+`influx setup -b bucket -o org -u user -p passwort`{{execute T2}}
 
 
 
 
 
-
+https://2886795339-8086-jago02.environments.katacoda.com/onboarding/0
 https://2886795272-8086-ollie02.environments.katacoda.com/
