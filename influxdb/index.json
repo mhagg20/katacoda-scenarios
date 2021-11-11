@@ -10,12 +10,12 @@
         "text": "stepAbstract.md"
       },
       {
-        "title": "Einführung",
-        "text": "stepEinfuehrung.md"
-      },
-      {
         "title": "Hinweise zu Katacoda",
         "text": "stepKatacoda.md"
+      },
+      {
+        "title": "Einführung",
+        "text": "stepEinfuehrung.md"
       },
       {
         "title": "Step 1",
