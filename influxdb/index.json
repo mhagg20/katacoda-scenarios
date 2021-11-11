@@ -6,16 +6,24 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Abstract",
+        "text": "stepAbstract.md"
       },
       {
-        "title": "Step 2",
+        "title": "Einführung",
+        "text": "stepEinfuehrung.md"
+      },
+      {
+        "title": "Step 1",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 2",
         "text": "step3.md"
+      },
+      {
+        "title": "Quellen",
+        "text": "stepQuellen.md"
       }
     ],
     "intro": {

@@ -1,28 +1,5 @@
-# Docker Image starten
+# InfluxDB-Client installieren
 
-Im zweiten Schritt wird das Docker Image der InfluxDB gestartet.
+Im dritten Schritt wird der benötigte InfluxDB-Client installiert.
 
-Beim Starten werden folgende Parameter zum Login in die Datenbank und zur Auswahl des richtigen Projektes zwingend benötigt:
- - DOCKER_INFLUXDB_INIT_USERNAME
- - DOCKER_INFLUXDB_INIT_PASSWORD=PASSWORT
- - DOCKER_INFLUXDB_INIT_ORG=pro_org
- - DOCKER_INFLUXDB_INIT_BUCKET
-
-
-```
-docker run -p 8086:8086 \
-      -v influxdb:/var/lib/influxdb \
-      influxdb:2.1.1
-```{{execute}}
-
-```
-docker run -p 8086:8086 \
-      -v influxdb:/var/lib/influxdb \
-      -v influxdb2:/var/lib/influxdb2 \
-      -e DOCKER_INFLUXDB_INIT_MODE=upgrade \
-      -e DOCKER_INFLUXDB_INIT_USERNAME=mhagg \
-      -e DOCKER_INFLUXDB_INIT_PASSWORD=PASSWORT \
-      -e DOCKER_INFLUXDB_INIT_ORG=pro_org \
-      -e DOCKER_INFLUXDB_INIT_BUCKET=pro_bu \
-      influxdb:2.0
-```{{execute}}
+`apt install influxdb-client`{{execute}}
