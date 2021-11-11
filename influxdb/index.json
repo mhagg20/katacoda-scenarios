@@ -1,8 +1,8 @@
 {
-  "title": "A Scenario with InfluxDB",
-  "description": "A program draft in the context of the lecture Data Warehouse to the InfluxDB.",
+  "title": "InfluxDB Szenario",
+  "description": "Ein Programmerntwurf im Rahmen der Vorlesung Data Warehouse zum Thema InfluxDB.",
   "difficulty": "Beginner",
-  "time": "? minutes",
+  "time": "20 minutes?",
   "details": {
     "steps": [
       {
