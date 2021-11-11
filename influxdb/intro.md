@@ -11,3 +11,6 @@ Ausgelegt ist dieses Szenario auf Beginner, welche noch keine Kenntnisse mit der
 - Modellierung von Zeitreihen
 - Speicherung von Zeitreihen in der InfluxDB
 - Abfrageformulierung der InfluxDB
+
+# Vorraussetzungen
+- Grundkenntnisse im Umgang mit Docker
