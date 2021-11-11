@@ -1,5 +1,3 @@
-# Abstract
-
 Das Thema "Internet of Things" verbreitet sich immer mehr. Beim Einsatz von "Internet of Things"-Geräte werden ständig Daten erzeugt. Um mit diesen Daten längerfristig arbeiten zu können müssen sie gespeichert werden. 
 
 Zur Speicherung von Daten wird typischerweise eine Datenbank eingesetzt. Klassische Datenbanken wie SQL-basierte Datenbanken sind jedoch nicht auf solche konstant hohen Datenraten, wie sie durch Internet of Things-Geräte oder wissenschaftlichen Messgeräten erzeugt werden, ausgelegt.
