@@ -9,4 +9,4 @@ Im verlauf dieses Katacodas werden weitere Konsolen geöffnet. Dabei müssen Sie
 
 Hier folgt ein Beispiel für das Ausführen von Codeelementen. Ausgeführt wird der Code in dem Sie ihn anklicken. Wurde der Code bereits ausgeführt wird am Ende des Kästchens ein Hacken. Das hier nun folgende Codebeispiel soll nur die Funktioalität von Katacoda veranschaulichen und hat keinen Einfluss auf die Funktioalität dieses Szenarios.
 
-`printf "Dieses Codebeispiel wird nun ausgeführt."\n`{{execute}}
+`printf 'Dieses Codebeispiel wird nun ausgeführt.\n'`{{execute}}
