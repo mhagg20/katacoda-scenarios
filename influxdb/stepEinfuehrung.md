@@ -1,2 +1,1 @@
-# Einführung in die InfluxDB
-
+![Katacoda Logo](./assets/4.png)
