@@ -10,6 +10,12 @@ In dieser Übung wird das neuste Image verwendet.
 
 Um die InfluxDB nutzen zu können, muss das geladene Image gestartet werden. Hierfür wird folgender Befehl genutzt.
 
-`docker run -p 8086:8086 -v influxdb:/var/lib/influxdb influxdb:latest`{{execute T1}}
+`docker run -d --name influxdb -p 8086:8086 -e INFLUXDB_ADMIN_USER=admin -e INFLUXDB_ADMIN_PASSWORD=admin123 -v influxdbdata:/var/lib/influxdb influxdb:latest`{{execute T1}}
 
 Nun startet der Docker-Container. Sobald dieser bereit ist, kann mit der Konfiguration im nachsten Schritt begonnen werden.
+
+Um zu überprüfen, ob der Container mit der InfluxDB bereit ist, kann folgender Befehl ausgeführt werden.
+
+`docker ps`{{execute T1}}
+
+Hier sollte nun ein Container mit dem Image influxdb:latest und dem Namen influxdb aufgeführt sein.
