@@ -18,4 +18,4 @@ Um zu überprüfen, ob der Container mit der InfluxDB bereit ist, kann folgender
 
 `docker ps`{{execute T1}}
 
-Hier sollte nun ein Container mit dem Image influxdb:latest und dem Namen influxdb aufgeführt sein.
+Hier sollte nun ein Container mit dem Image 'influxdb:latest' und dem Namen 'influxdb' aufgeführt sein.

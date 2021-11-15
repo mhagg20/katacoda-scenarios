@@ -10,9 +10,9 @@ Nun öffnet sich die bash Console des Docker-Containers und somit der InfluxDB.
 
 Für die Konfiguration und Nutzung der InfluxDB wird der InfluxDB-Client benötigt. Dieser wird folgendermaßen installiert.
 
-`apt install influxdb-client`{{execute T2}}
+`apt install influxdb-client`{{execute T1}}
 
-`influx setup -b bucket -o org -u user -p passwort`{{execute T2}}
+`influx setup -b bucket -o org -u user -p passwort`{{execute T1}}
 
 
 
