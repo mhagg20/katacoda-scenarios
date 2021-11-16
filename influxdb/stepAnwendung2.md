@@ -1,6 +1,8 @@
 # Kopieren eines Skriptes in den Container
 
-`docker cp token.sh influxdb:/token.sh`{{execute T1}}
+Im weiteren Verlauf dieses Katacoda wird es nötig, dass aus einer Abfrage ein Token extrahiert wird. Diese Funktionalität ist nicht Teil des Katacoda und wurde in ein Bash-Script ausgelagert. Dieses muss vor der Nutzung in den Docker-Container kopiert werden.
+
+`docker cp token.sh influxdb:/token_erstellung.sh`{{execute T1}}
 
 # Öffnen des Containers
 
@@ -16,7 +18,7 @@ Nun öffnet sich die bash Console des Docker-Containers und somit der InfluxDB.
 
 # Token erstellen und in Umgebungsvariable speichern mittels Skript
 
-`source token.sh`{{execute T1}}
+`source token_erstellung.sh`{{execute T1}}
 
 # Token ausgeben
 
