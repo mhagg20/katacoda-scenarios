@@ -15,3 +15,5 @@ Für die Konfiguration und Nutzung der InfluxDB wird der InfluxDB-Client benöti
 `influx setup -b bucket -o org -u user -p passwort -f`{{execute T1}}
 
 # Token erstellen und in Umgebungsvariable speichern
+
+ausgabe='influx auth create --org org --all-access'
