@@ -20,4 +20,4 @@ Nun öffnet sich die bash Console des Docker-Containers und somit der InfluxDB.
 
 # Token ausgeben
 
-`echo '$(INFLUX_TOKEN)'`{{execute T1}}
+`echo $INFLUX_TOKEN`{{execute T1}}
