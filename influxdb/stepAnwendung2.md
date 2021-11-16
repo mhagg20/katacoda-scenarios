@@ -12,4 +12,6 @@ Für die Konfiguration und Nutzung der InfluxDB wird der InfluxDB-Client benöti
 
 `apt install influxdb-client`{{execute T1}}
 
-`influx setup -b bucket -o org -u user -p passwort`{{execute T1}}
+`influx setup -b bucket -o org -u user -p passwort -f`{{execute T1}}
+
+# Token erstellen und in Umgebungsvariable speichern
