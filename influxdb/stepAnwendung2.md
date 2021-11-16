@@ -1,3 +1,7 @@
+# Kopieren eines Skriptes in den Container
+
+`docker cp token.sh influxdb:/token.sh`{{execute T1}}
+
 # Öffnen des Containers
 
 Um weitere Befehle für die InfluxDB zu nutzen, müssen Sie nun den Container öffnen. Dies wird mit diesem Befehl durchgeführt.
@@ -6,14 +10,14 @@ Um weitere Befehle für die InfluxDB zu nutzen, müssen Sie nun den Container ö
 
 Nun öffnet sich die bash Console des Docker-Containers und somit der InfluxDB. 
 
-# Installieren des InfluxDB-Client
-
-Für die Konfiguration und Nutzung der InfluxDB wird der InfluxDB-Client benötigt. Dieser wird folgendermaßen installiert.
-
-`apt install influxdb-client`{{execute T1}}
+# Anlegen der InfluxDB
 
 `influx setup -b bucket -o org -u user -p passwort -f`{{execute T1}}
 
-# Token erstellen und in Umgebungsvariable speichern
+# Token erstellen und in Umgebungsvariable speichern mittels Skript
 
-ausgabe='influx auth create --org org --all-access'
+`source token.sh`{{execute T1}}
+
+# Token ausgeben
+
+`echo '$(INFLUX_TOKEN)'`{{execute T1}}
