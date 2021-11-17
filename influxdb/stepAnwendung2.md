@@ -4,7 +4,7 @@ Im weiteren Verlauf dieses Katacoda wird es nötig, dass aus einer Abfrage ein T
 
 `docker cp token.sh influxdb:/token_erstellung.sh`{{execute T1}}
 
-`docker cp dataset_lineProtocol.txt influxdb:/dataset_lineProtocol.txt`{{execute T1}}
+`docker cp dataset.txt influxdb:/dataset.txt`{{execute T1}}
 
 # Öffnen des Containers
 
