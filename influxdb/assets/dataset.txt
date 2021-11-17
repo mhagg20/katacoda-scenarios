@@ -1,0 +1,5 @@
+abstand, sensorId=1 value=1 1635717524000000000
+abstand, sensorId=1 value=4 1635717524000000000
+abstand, sensorId=1 value=5 1635717524000000000
+abstand, sensorId=1 value=3 1635717524000000000
+abstand, sensorId=1 value=4 1635717524000000000
