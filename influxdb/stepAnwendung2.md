@@ -4,6 +4,8 @@ Im weiteren Verlauf dieses Katacoda wird es nötig, dass aus einer Abfrage ein T
 
 `docker cp token.sh influxdb:/token_erstellung.sh`{{execute T1}}
 
+`docker cp dataset_lineProtocol.txt influxdb:/dataset_lineProtocol.txt`{{execute T1}}
+
 # Öffnen des Containers
 
 Um weitere Befehle für die InfluxDB zu nutzen, müssen Sie nun den Container öffnen. Dies wird mit diesem Befehl durchgeführt.
