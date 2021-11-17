@@ -1,4 +1,4 @@
-massungen, type=entfernung, distanz=1 1635717524000000000
+massungen,type=entfernung distanz=1 1635717424000000000
 massungen,type=entfernung distanz=2 1635717524000000000
 massungen,type=entfernung distanz=3 1635717624000000000
 massungen,type=entfernung distanz=2 1635717724000000000
