@@ -1,5 +1,5 @@
 abstand, type=pm10, sensorId=1 value=1 1635717524000000000
-abstand, type=pm10, sensorId=1 value=4 1635717524000000000
-abstand, type=pm10, sensorId=1 value=5 1635717524000000000
-abstand, type=pm10, sensorId=1 value=3 1635717524000000000
-abstand, type=pm10, sensorId=1 value=4 1635717524000000000
+abstand, type=pm10, sensorId=1 value=4 1635717524000000001
+abstand, type=pm10, sensorId=1 value=5 1635717524000000002
+abstand, type=pm10, sensorId=1 value=3 1635717524000000003
+abstand, type=pm10, sensorId=1 value=4 1635717524000000004
