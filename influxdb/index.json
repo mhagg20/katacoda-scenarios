@@ -7,43 +7,43 @@
     "steps": [
       {
         "title": "Abstract",
-        "text": "stepAbstract.md"
+        "text": "step_1_Abstract.md"
       },
       {
         "title": "Hinweise zu Katacoda",
-        "text": "stepKatacoda.md"
+        "text": "step_2_Katacoda.md"
       },
       {
         "title": "Zeitreihendatenbanken",
-        "text": "stepZeitreihendatenbanken.md"
+        "text": "step_3_Zeitreihendatenbanken.md"
       },
       {
         "title": "Einführung",
-        "text": "stepEinfuehrung.md"
+        "text": "step_4_Einfuehrung.md"
       },
       {
         "title": "Vor-/Nachteile",
-        "text": "stepVor_Nachteile.md"
+        "text": "step_5_Vor_Nachteile.md"
       },
       {
         "title": "Aufbau",
-        "text": "stepAufbau.md"
+        "text": "step_6_Aufbau.md"
       },
       {
         "title": "Praktische Anwendung",
-        "text": "stepAnwendung1.md"
+        "text": "step_7_Anwendung1.md"
       },
       {
         "title": "Praktische Anwendung",
-        "text": "stepAnwendung2.md"
+        "text": "step_8_Anwendung2.md"
       },
       {
         "title": "Praktische Anwendung",
-        "text": "stepAnwendung3.md"
+        "text": "step_9_Anwendung3.md"
       },
       {
         "title": "Quellen",
-        "text": "stepQuellen.md"
+        "text": "step_10_Quellen.md"
       }
     ],
     "intro": {
