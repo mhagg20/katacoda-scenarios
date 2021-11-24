@@ -9,3 +9,5 @@
 [4]     InfluxData Inc., Available: https://www.influxdata.com. [Zugriff am 24 November 2021].
 
 [5]     V. Kanade, „Eine Einführung in Zeitreihendaten“, Geekflare, 7 September 2021. [Online]. Available: https://geekflare.com/de/time-series-data/. [Zugriff am 24 November 2021].
+
+[6]     
