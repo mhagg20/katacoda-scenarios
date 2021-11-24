@@ -3,6 +3,7 @@ Was ist die InfluxDB?
 Bei der InfluxDB handelt es sich um ein von der Firma InfluxData Inc. 
 
 ![InfluxData Inc.](influxdb\assets\influxdata.png)
+Quelle [4]
 
 Entwickeltes Open Source Datenbank-Management-System. [1] Neben der Open Source Version bietet die InfluxData Inc. auch kommerzielle Versionen für Geschäftskunden an. [1]
 
