@@ -9,4 +9,4 @@ Neu geschriebene Datensätze werden immer an die Tabelle der bestehenden Datens�
 Im Hier beigefügten Bild ist ein Ausschnitt aus einem möglichen Datensatz einer Zeitreihendatenbanken dargestellt. Dabei ist zu sehen, dass die Datensätze lediglich aus dem Sensor, welcher die Daten erzeugt hat, dem ermittelten Wert und dem Zeitstempel besteht.
 
 ![Zeitreihendatenbank](influxdb\assets\Zeitreihendatenbank_Ausschnitt.png)
-Quelle: [1] https://www.ionos.de/digitalguide/hosting/hosting-technik/was-ist-influxdb/
+Quelle: [1]
