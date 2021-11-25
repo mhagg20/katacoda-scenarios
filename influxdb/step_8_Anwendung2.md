@@ -16,12 +16,24 @@ Nun öffnet sich die bash Console des Docker-Containers und somit der InfluxDB.
 
 # Anlegen der InfluxDB
 
-`influx setup -b bucket -o org -u user -p passwort -f`{{execute T1}}
+Nachdem die InfluxDB im Docker Container gestartet ist, muss für die nutzung noch die entsprechende Datenbank angelegt werden. Dafür müssen die folgenden Angaben gemacht werden, welche zuvor bereits erklärt wurden.
+
+Beim erstellen der InfluxDB wird jeweils ein Name für den Bucket, die Organisation und den User benötigt. Des Weiteren wird ein Passwort für den User festgelegt.
+
+In diesem Szenario wird der Einfachheit halber auf sprechende Werte gesetzt, welche in der Praxis jedoch nicht empfehlenswert sind. 
+
+`influx setup -b bucket -o org -u user -p password -f`{{execute T1}}
 
 # Token erstellen und in Umgebungsvariable speichern mittels Skript
+
+Um An- und Abfragen an die InfluxDB stellen zu können, wird ein Token benötigt. Dieser Token kann nach der generierung bei jeder einzelnen Abfrage mit übergeben werden oder er wird in der Variable "INFLUX_TOKEN" gespeichert. 
+
+Die Tokengenerierung und Speicherung ist für die Darstellung in diesem Katacoda in einem Skript zusammengefasst, welches mittels folgendem Befehl ausgefügrt wird. Innerhalb des Skriptes wird der Token bei der InfluxDB angefordert, aus der zurückerhaltenen Antwort extrahiert und in die "INFLUX_TOKEN"-Variable gespeichert.
 
 `source token_erstellung.sh`{{execute T1}}
 
 # Token ausgeben
+
+Wenn der Token vollständig generiert und korrekt gespeichert wurde, kann er unter folgendem Befehl angezeigt werden.
 
 `echo $INFLUX_TOKEN`{{execute T1}}
