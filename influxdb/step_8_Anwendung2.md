@@ -4,6 +4,8 @@ Im weiteren Verlauf dieses Katacoda wird es nötig, dass aus einer Abfrage ein T
 
 `docker cp token.sh influxdb:/token_erstellung.sh`{{execute T1}}
 
+Zudem werden die Datensätze in diesem Szenario aus einer Textdatei in die InfluxDB eingespielt. Die entsprechende Datei muss ebenfalls in den Docker Container der InfluxDB kopiert werden.
+
 `docker cp dataset.txt influxdb:/dataset.txt`{{execute T1}}
 
 # Öffnen des Containers
@@ -16,11 +18,11 @@ Nun öffnet sich die bash Console des Docker-Containers und somit der InfluxDB.
 
 # Anlegen der InfluxDB
 
-Nachdem die InfluxDB im Docker Container gestartet ist, muss für die nutzung noch die entsprechende Datenbank angelegt werden. Dafür müssen die folgenden Angaben gemacht werden, welche zuvor bereits erklärt wurden.
+Nachdem die InfluxDB im Docker Container gestartet ist, muss für die Nutzung noch die entsprechende Datenbank angelegt werden. Dafür müssen die folgenden Angaben gemacht werden, welche zuvor bereits erklärt wurden.
 
-Beim erstellen der InfluxDB wird jeweils ein Name für den Bucket, die Organisation und den User benötigt. Des Weiteren wird ein Passwort für den User festgelegt.
+Beim Erstellen der InfluxDB wird jeweils ein Name für den Bucket, die Organisation und den User benötigt. Des Weiteren wird ein Passwort für den User festgelegt.
 
-In diesem Szenario wird der Einfachheit halber auf sprechende Werte gesetzt, welche in der Praxis jedoch nicht empfehlenswert sind. 
+In diesem Szenario wird einfachheitshalber auf sprechende Werte gesetzt, welche in der Praxis jedoch nicht empfehlenswert sind. 
 
 `influx setup -b bucket -o org -u user -p password -f`{{execute T1}}
 

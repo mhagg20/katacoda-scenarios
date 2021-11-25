@@ -2,7 +2,7 @@
   "title": "InfluxDB Szenario",
   "description": "Ein Programmerntwurf im Rahmen der Vorlesung Data Warehouse zum Thema InfluxDB.",
   "difficulty": "Beginner",
-  "time": "20 minutes?",
+  "time": "15-20 Minuten",
   "details": {
     "steps": [
       {

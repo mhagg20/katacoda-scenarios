@@ -3,7 +3,7 @@ Nach der bislang ledilich theoretischen Betrachtung von Zeitreihendatenbanken un
 
 # Docker Image aufsetzen
 
-Um die Installation zu vereinfachen wird in diesem Szenario auf ein Docker gesetzt, welcher von Docker Hub gezogen wird.
+Um die Installation zu vereinfachen wird in diesem Szenario auf auf das Docker Image der InfluxDB gesetzt, welches von Docker Hub gezogen wird.
 In dieser Übung wird das neuste Image verwendet.
 
 `docker pull influxdb:latest`{{execute T1}}
